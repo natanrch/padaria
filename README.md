@@ -1,3 +1,15 @@
+#INSTALAÇÃO - PADARIA
+
+Depois de clonado para a pasta do servidor, abra o seguinte link
+
+        http://localhost/dolibarr/htdocs/install/
+        
+    ou
+    
+        http://localhost/dolibarr/install/
+
+E sigam o passo a passo para instalação. Dúvidas, mandar no grupo.
+
 # DOLIBARR ERP & CRM
 
 ![Downloads per day](https://img.shields.io/sourceforge/dw/dolibarr.svg)
