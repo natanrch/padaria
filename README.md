@@ -2,11 +2,11 @@
 
 Depois de clonado para a pasta do servidor, abra o seguinte link
 
-        http://localhost/dolibarr/htdocs/install/
+        http://localhost/padaria/htdocs/install/
         
     ou
     
-        http://localhost/dolibarr/install/
+        http://localhost/padaria/install/
 
 E sigam o passo a passo para instalação. Dúvidas, mandar no grupo.
 
