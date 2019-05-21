@@ -38,7 +38,7 @@ if (! $user->rights->accounting->fiscalyear)
 $id = GETPOST('id', 'int');
 
 // View
-$title = $langs->trans("Fiscalyear") . " - " . $langs->trans("Info");
+$title = $langs->trans("Fiscalyear") . " - Ferragens Padaria";
 $helpurl = "";
 llxHeader("", $title, $helpurl);
 

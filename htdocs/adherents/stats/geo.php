@@ -57,10 +57,10 @@ $arrayjs=array('https://www.google.com/jsapi');
 if (! empty($conf->dol_use_jmobile)) $arrayjs=array();
 
 $title=$langs->trans("Statistics");
-if ($mode == 'memberbycountry') $title=$langs->trans("MembersStatisticsByCountries");
-if ($mode == 'memberbystate') $title=$langs->trans("MembersStatisticsByState");
-if ($mode == 'memberbytown') $title=$langs->trans("MembersStatisticsByTown");
-if ($mode == 'memberbyregion') $title=$langs->trans("MembersStatisticsByRegion");
+if ($mode == 'memberbycountry') $title=$langs->trans("MembersStatisticsByCountries")." - Ferragens Padaria";
+if ($mode == 'memberbystate') $title=$langs->trans("MembersStatisticsByState")." - Ferragens Padaria";
+if ($mode == 'memberbytown') $title=$langs->trans("MembersStatisticsByTown")." - Ferragens Padaria";
+if ($mode == 'memberbyregion') $title=$langs->trans("MembersStatisticsByRegion")." - Ferragens Padaria";
 
 llxHeader('', $title, '', '', 0, 0, $arrayjs);
 

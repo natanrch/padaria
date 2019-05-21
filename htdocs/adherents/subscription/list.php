@@ -218,7 +218,7 @@ llxHeader('', $langs->trans("ListOfSubscriptions"), 'EN:Module_Foundations|FR:Mo
 
 $i = 0;
 
-$title=$langs->trans("ListOfSubscriptions");
+$title=$langs->trans("ListOfSubscriptions")." - Ferragens Padaria";
 if (! empty($date_select)) $title.=' ('.$langs->trans("Year").' '.$date_select.')';
 
 $param='';

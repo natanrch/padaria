@@ -56,7 +56,7 @@ $memberstatic=new Adherent($db);
 
 llxHeader('', $langs->trans("MembersStatisticsByProperties"), '', '', 0, 0, array('https://www.google.com/jsapi'));
 
-$title=$langs->trans("MembersStatisticsByProperties");
+$title=$langs->trans("MembersStatisticsByProperties")." - Ferragens Padaria";
 
 print load_fiche_titre($title, '');
 

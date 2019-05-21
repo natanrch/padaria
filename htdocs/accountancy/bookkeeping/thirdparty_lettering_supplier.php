@@ -121,7 +121,7 @@ if ($action == 'autolettrage') {
 $form = new Form($db);
 $formaccounting = new FormAccounting($db);
 
-$title=$object->name." - ".$langs->trans('TabLetteringSupplier');
+$title=$object->name." - ".$langs->trans('TabLetteringSupplier')." - Ferragens Padaria";
 $help_url='EN:Module_Third_Parties|FR:Module_Tiers|ES:Empresas';
 llxHeader('', $title, $help_url);
 

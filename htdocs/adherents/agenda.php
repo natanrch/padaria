@@ -119,7 +119,7 @@ if ($object->id > 0)
 
 	$langs->load("companies");
 
-	$title=$langs->trans("Member") . " - " . $langs->trans("Agenda");
+	$title=$langs->trans("Member") . " - " . $langs->trans("Agenda")." - Ferragens Padaria";
 	$helpurl="EN:Module_Foundations|FR:Module_Adh&eacute;rents|ES:M&oacute;dulo_Miembros";
 	llxHeader("", $title, $helpurl);
 

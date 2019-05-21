@@ -373,7 +373,7 @@ if ($action == 'export_file') {
  * View
  */
 
-$title_page = $langs->trans("Bookkeeping");
+$title_page = $langs->trans("Bookkeeping")." - Ferragens Padaria";
 
 llxHeader('', $title_page);
 

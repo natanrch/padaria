@@ -821,7 +821,7 @@ $form = new Form($db);
 $formfile = new FormFile($db);
 $formcompany = new FormCompany($db);
 
-$title=$langs->trans("Member") . " - " . $langs->trans("Card");
+$title=$langs->trans("Member") . " - " . $langs->trans("Card")." - Ferragens Padaria";
 $help_url='EN:Module_Foundations|FR:Module_Adh&eacute;rents|ES:M&oacute;dulo_Miembros';
 llxHeader('', $title, $help_url);
 

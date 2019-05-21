@@ -171,7 +171,7 @@ $now=dol_now();
 
 //$help_url="EN:Module_EmailCollector|FR:Module_EmailCollector_FR|ES:Módulo_EmailCollector";
 $help_url='';
-$title = $langs->trans('ListOf', $langs->transnoentitiesnoconv("EmailCollector"));
+$title = $langs->trans('ListOf', $langs->transnoentitiesnoconv("EmailCollector"))." - Ferragens Padaria";
 
 
 // Build and execute select

@@ -81,7 +81,7 @@ include_once DOL_DOCUMENT_ROOT . '/core/actions_linkedfiles.inc.php';
 
 $form = new Form($db);
 
-$title=$langs->trans("Member") . " - " . $langs->trans("Documents");
+$title=$langs->trans("Member") . " - " . $langs->trans("Documents")." - Ferragens Padaria";
 $helpurl="EN:Module_Foundations|FR:Module_Adh&eacute;rents|ES:M&oacute;dulo_Miembros";
 llxHeader("", $title, $helpurl);
 
