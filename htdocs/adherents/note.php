@@ -58,7 +58,7 @@ include DOL_DOCUMENT_ROOT.'/core/actions_setnotes.inc.php'; // Must be include, 
 /*
  * View
  */
-$title=$langs->trans("Member") . " - " . $langs->trans("Note");
+$title=$langs->trans("Member") . " - " . $langs->trans("Note")." - Ferragens Padaria";
 $helpurl="EN:Module_Foundations|FR:Module_Adh&eacute;rents|ES:M&oacute;dulo_Miembros";
 llxHeader("", $title, $helpurl);
 

@@ -204,7 +204,7 @@ $formaccounting = new FormAccounting($db);
 $formother = new FormOther($db);
 $form = new Form($db);
 
-$title_page = $langs->trans("Bookkeeping") . ' ' . strtolower($langs->trans("By")) . ' ' . strtolower($langs->trans("AccountAccounting"));
+$title_page = $langs->trans("Bookkeeping") . ' ' . strtolower($langs->trans("By")) . ' ' . strtolower($langs->trans("AccountAccounting"))." - Ferragens Padaria";
 
 llxHeader('', $title_page);
 

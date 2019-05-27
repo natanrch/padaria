@@ -172,7 +172,7 @@ if ($action == 'export_csv')
 }
 
 
-$title_page = $langs->trans("AccountBalance");
+$title_page = $langs->trans("AccountBalance")." - Ferragens Padaria";
 
 llxHeader('', $title_page);
 

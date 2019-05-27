@@ -80,7 +80,7 @@ $max = 100;
 
 $form = new Form($db);
 
-$title = $langs->trans('AccountingPeriods');
+$title = $langs->trans('AccountingPeriods')." - Ferragens Padaria";
 $helpurl = "";
 llxHeader('', $title, $helpurl);
 

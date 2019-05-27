@@ -149,7 +149,7 @@ elseif ($action == 'update') {
 
 $form = new Form($db);
 
-$title = $langs->trans("Fiscalyear") . " - " . $langs->trans("Card");
+$title = $langs->trans("Fiscalyear") . " - Ferragens Padaria";
 $helpurl = "";
 llxHeader("", $title, $helpurl);
 

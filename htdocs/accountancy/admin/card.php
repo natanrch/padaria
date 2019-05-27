@@ -205,7 +205,7 @@ $formaccounting = new FormAccounting($db);
 $accountsystem = new AccountancySystem($db);
 $accountsystem->fetch($conf->global->CHARTOFACCOUNTS);
 
-$title = $langs->trans('AccountAccounting') ." - ". $langs->trans('Card');
+$title = $langs->trans('AccountAccounting') ." - Ferragens Padaria";
 $helpurl = '';
 llxheader('', $title, $helpurl);
 
